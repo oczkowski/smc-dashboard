@@ -1,0 +1,13 @@
+#header {
+    background-color: #ec6952;
+    display: flex;
+}
+
+#header > img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+#header a.item {
+    color: white;
+}
