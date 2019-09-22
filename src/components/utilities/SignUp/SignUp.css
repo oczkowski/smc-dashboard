@@ -1,0 +1,43 @@
+div.signup-modal {
+    display: absolute;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    z-index: 10;
+    overflow: hidden;
+}
+
+div.signup-modal > .header {
+    width: 100%;
+    background-color: #2185d0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+div.signup-modal > .content {
+    padding: 20px;
+    background-color: white;
+    padding: 30px 50px 30px 50px;
+}
+/* Centralized placeholder text */
+.cplaceholder::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.cplaceholder:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+.cplaceholder::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+.cplaceholder:-ms-input-placeholder {
+    text-align: center;
+}

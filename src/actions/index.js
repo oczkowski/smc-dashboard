@@ -7,3 +7,10 @@ export const getPhoto = () => {
         }
     };
 };
+
+export const toggleSidebar = () => {
+    return {
+        type: 'TOGGLE_SIDEBAR',
+        payload: { tof: true }
+    };
+};
