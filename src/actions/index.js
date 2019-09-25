@@ -14,3 +14,25 @@ export const toggleSidebar = () => {
         payload: { tof: true }
     };
 };
+
+export const getOverlaysData = () => {
+    return {
+        type: 'GET_OVERLAYS_DATA',
+        payload: [
+            {
+                'Tag Name': 'testtag.com',
+                'User Impressions': Math.round(Math.random() * 100) + 1000,
+                'Overlays Shown': Math.round(Math.random() * 100) + 100,
+                'Overlays Clicked': Math.round(Math.random() * 100),
+                Revenue: Math.round(Math.random() * 100) + 10000
+            },
+            {
+                'Tag Name': 'somerandomsitre.net',
+                'User Impressions': Math.round(Math.random() * 100) + 1000,
+                'Overlays Shown': Math.round(Math.random() * 100) + 100,
+                'Overlays Clicked': Math.round(Math.random() * 100),
+                Revenue: Math.round(Math.random() * 100) + 10000
+            }
+        ]
+    };
+};

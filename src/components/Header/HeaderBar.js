@@ -14,8 +14,8 @@ class HeaderBar extends React.Component {
                 <Menu.Menu position="right">
                     <Menu.Item>
                         <Button primary as={Link} to="/sign-up">
-                            <Icon name="google" />
-                            Sign up with Google
+                            <Icon name="paper plane" />
+                            Sign Up
                         </Button>
                     </Menu.Item>
                     <Menu.Item onClick={this.props.toggleSidebar}>
